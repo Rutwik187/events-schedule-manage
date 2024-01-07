@@ -1,6 +1,12 @@
-import Calender from '@/components/shared/Calender'
+'use'
+import Awards from '@/components/shared/Awards'
+import Events from '@/components/shared/Events'
+import FAQs from '@/components/shared/FAQs'
+import Footer from '@/components/shared/Footer'
+import HistoryGallery from '@/components/shared/HistoryGallery'
 import HomeCarousel from '@/components/shared/HomeCarousel'
 import News from '@/components/shared/News'
+import RegisterSingIn from '@/components/shared/RegisterSingIn'
 import Teams from '@/components/shared/Teams'
 import Image from 'next/image'
 
@@ -15,8 +21,13 @@ const Home = () => {
         {/* <HomeCarousel/> */}
         
         <News/>
-        <Calender/>
-        {/* <Teams/> */}
+        <Events/>
+        <Teams/>
+        <HistoryGallery/>
+        <Awards/>
+        <FAQs/>
+        <RegisterSingIn/>
+        <Footer/>
     </div>
   )
 }

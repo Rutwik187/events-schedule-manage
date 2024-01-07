@@ -10,10 +10,10 @@ import {
 import Heading from "../ui/Heading"
 import Image from "next/image"
 
-const Teams =() => {
+const Awards =() => {
   return (
     < >
-    <Heading heading="Teams"/>
+    <Heading heading="Awards"/>
     <Carousel
       opts={{
         align: "start",
@@ -26,8 +26,8 @@ const Teams =() => {
             <div className="p-1">
               <Card>
                 <CardContent className="flex aspect-square items-center justify-center p-6 flex-col gap-2">
-                  <Image src="/assets/team-logo.jpg" width={500} height={500} alt="team-logo"/>
-                  <span className="text-xl font-semibold">Ajinkya Team</span>
+                  <Image src="/assets/awards.jpeg" width={500} height={500} alt="team-logo"/>
+                  <span className="text-xl font-semibold">Pooja Shelar</span>
                 </CardContent>
               </Card>
             </div>
@@ -41,4 +41,4 @@ const Teams =() => {
     </>
   )
 }
-export default Teams
+export default Awards

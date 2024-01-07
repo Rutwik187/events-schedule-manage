@@ -1,7 +1,7 @@
 "use client"
 import Script from "next/script"
 import Heading from "../ui/Heading"
-const Calender = () => {
+const Events = () => {
   
   
   return (
@@ -19,4 +19,4 @@ const Calender = () => {
   )
 }
 
-export default Calender
+export default Events
